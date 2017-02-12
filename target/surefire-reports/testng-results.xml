@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="99926" started-at="2017-02-12T07:17:23Z" finished-at="2017-02-12T07:19:03Z">
+    <groups>
+    </groups>
+    <test name="RegressionTest" duration-ms="99926" started-at="2017-02-12T07:17:23Z" finished-at="2017-02-12T07:19:03Z">
+      <class name="testCases.VerifyLoginPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.VerifyLoginPage@1d71e34]" name="setUp" is-config="true" duration-ms="15052" started-at="2017-02-12T12:47:38Z" finished-at="2017-02-12T12:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:testCases.VerifyLoginPage@1d71e34]" name="testLoginPage" duration-ms="8984" started-at="2017-02-12T12:47:53Z" finished-at="2017-02-12T12:48:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.VerifyLoginPage@1d71e34]" name="tearDown" is-config="true" duration-ms="432" started-at="2017-02-12T12:48:02Z" finished-at="2017-02-12T12:48:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.VerifyLoginPage -->
+      <class name="testCases.VerifyHomePage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.VerifyHomePage@5fba1c]" name="setUp" is-config="true" duration-ms="15185" started-at="2017-02-12T12:47:23Z" finished-at="2017-02-12T12:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:testCases.VerifyHomePage@5fba1c]" name="testHomePage" duration-ms="61" started-at="2017-02-12T12:47:38Z" finished-at="2017-02-12T12:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.VerifyHomePage@5fba1c]" name="tearDown" is-config="true" duration-ms="431" started-at="2017-02-12T12:47:38Z" finished-at="2017-02-12T12:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.VerifyHomePage -->
+      <class name="testCases.VerifyLoginPageWithReports">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.VerifyLoginPageWithReports@1ffeaea]" name="setUp" is-config="true" duration-ms="20711" started-at="2017-02-12T12:48:33Z" finished-at="2017-02-12T12:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:testCases.VerifyLoginPageWithReports@1ffeaea]" name="testLoginPage" duration-ms="8822" started-at="2017-02-12T12:48:53Z" finished-at="2017-02-12T12:49:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.VerifyLoginPageWithReports@1ffeaea]" name="tearDown" is-config="true" duration-ms="500" started-at="2017-02-12T12:49:02Z" finished-at="2017-02-12T12:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.VerifyLoginPageWithReports -->
+      <class name="testCases.VerifyLoginPageWithReports1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.VerifyLoginPageWithReports1@b3b3a5]" name="setUp" is-config="true" duration-ms="19158" started-at="2017-02-12T12:48:03Z" finished-at="2017-02-12T12:48:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:testCases.VerifyLoginPageWithReports1@b3b3a5]" name="testLoginPage" duration-ms="9757" started-at="2017-02-12T12:48:22Z" finished-at="2017-02-12T12:48:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.VerifyLoginPageWithReports1@b3b3a5]" name="tearDown" is-config="true" duration-ms="832" started-at="2017-02-12T12:48:32Z" finished-at="2017-02-12T12:48:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginPage status=SUCCESS method=VerifyLoginPageWithReports1.testLoginPage()[pri:0, instance:testCases.VerifyLoginPageWithReports1@b3b3a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.VerifyLoginPageWithReports1 -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- RegressionSuite -->
+  <suite name="PortalValidation" duration-ms="71650" started-at="2017-02-12T07:16:11Z" finished-at="2017-02-12T07:17:23Z">
+    <groups>
+    </groups>
+    <test name="SmokeScenario" duration-ms="71650" started-at="2017-02-12T07:16:11Z" finished-at="2017-02-12T07:17:23Z">
+      <class name="testCases.VerifyLoginPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.VerifyLoginPage@d5fcfe]" name="setUp" is-config="true" duration-ms="23750" started-at="2017-02-12T12:46:50Z" finished-at="2017-02-12T12:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:testCases.VerifyLoginPage@d5fcfe]" name="testLoginPage" duration-ms="8286" started-at="2017-02-12T12:47:14Z" finished-at="2017-02-12T12:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.VerifyLoginPage@d5fcfe]" name="tearDown" is-config="true" duration-ms="447" started-at="2017-02-12T12:47:22Z" finished-at="2017-02-12T12:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.VerifyLoginPage -->
+      <class name="testCases.VerifyHomePage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.VerifyHomePage@d03350]" name="setUp" is-config="true" duration-ms="35426" started-at="2017-02-12T12:46:11Z" finished-at="2017-02-12T12:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:testCases.VerifyHomePage@d03350]" name="testHomePage" duration-ms="69" started-at="2017-02-12T12:46:46Z" finished-at="2017-02-12T12:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.VerifyHomePage@d03350]" name="tearDown" is-config="true" duration-ms="3650" started-at="2017-02-12T12:46:46Z" finished-at="2017-02-12T12:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.VerifyHomePage -->
+    </test> <!-- SmokeScenario -->
+  </suite> <!-- PortalValidation -->
+</testng-results>
